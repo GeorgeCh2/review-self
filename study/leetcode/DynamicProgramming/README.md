@@ -8,5 +8,5 @@
 
 | # | Title | Solution |
 |---| ----- | -------- |
-| 509 | [Fibonacci Number](https://leetcode-cn.com/problems/fibonacci-number/) | [Java]()|
-|322| [Coin Change](https://leetcode-cn.com/problems/coin-change/) | [Java]()|
+| 509 | [Fibonacci Number](https://leetcode-cn.com/problems/fibonacci-number/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/FibonacciNumber.java)|
+|322| [Coin Change](https://leetcode-cn.com/problems/coin-change/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/CoinChange.java)|
