@@ -1,9 +1,39 @@
-## 数据库的定义
+# MySQL 体系结构
 数据库和实例：
 * 数据库：物理操作文件系统或其他形式文件类型的集合
 * 实例：MySQL 数据库由后台线程以及一个共享内存区组成  
 
-在 MySQL 中，实例和数据库往往都是一一对应的，我们无法直接操作数据库，而是要通过数据库实例来操作数据库文件。
+从概念上讲，数据库是文件的集合，是依照某种数据模型阻止起来并存放于二级存储器中的数据集合；  
+数据库实例是程序，是位于用户与操作系统之间的一层数据库管理软件，应用程序只有通过数据库实例才能和数据库打交道。 
+
+MySQL 被设计为一个单进程多线程架构的数据库，MySQL 数据库实例在系统上的表现就是一个进程。
+
+MySQL 的组成：
+* 连接池组件
+* 管理服务和工具组件
+* SQL 接口组件
+* 查询分析器组件
+* 优化器组件
+* 缓冲（Cache）组件
+* 插件式存储引擎
+* 物理文件
+
+连接 MySQL 操作是一个连接进程和 MySQL 数据库实例进行通信。本质上是进城通信。
+
+# InnoDB 存储引擎
+## InnoDB 体系架构
+[InnoDB 体系架构](https://github.com/GeorgeCh2/review-self/img/InnoDB 2-1.png)
+### 后台线程
+InnoDB 存储引擎是多线程的模型，因此其后台有多个不同的后台线程，负责处理不同的任务。
+#### Master Thread
+Master Thread 是一个非常核心的后台线程，主要负责讲缓冲池中的数据异步刷新到磁盘，保证数据的一致性，包括脏页的刷新、合并插入缓冲（INSERT BUFFER）、UNDO 页的回收等。
+#### IO Thread
+IO Thread 的工作主要是负责 IO 请求的回调（call back）处理。  
+包括 write、read、insert bufffer 和 log IO Thread
+#### Purge Thread
+事务被提交后，其所使用的 undolog 可能不再需要，因此需要 PurgeThread 来回收已经使用并分配的 undo 页。
+#### Page Cleaner Thread
+刷新脏页
 
 ## 数据的存储
 在 InnoDB 存储引擎中，所有的数据都被逻辑地存放在表空间中，表空间（tablespace）是存储引擎中最高的存储逻辑单位，在表空间的下面又包括段（segment）、区（extent）、页（page）
