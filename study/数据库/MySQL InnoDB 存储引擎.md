@@ -22,7 +22,7 @@ MySQL 的组成：
 
 # InnoDB 存储引擎
 ## InnoDB 体系架构
-[InnoDB 体系架构](https://github.com/GeorgeCh2/review-self/img/InnoDB 2-1.png)
+[InnoDB 体系架构](https://github.com/GeorgeCh2/review-self/blob/master/img/InnoDB%202-1.png)
 ### 后台线程
 InnoDB 存储引擎是多线程的模型，因此其后台有多个不同的后台线程，负责处理不同的任务。
 #### Master Thread
