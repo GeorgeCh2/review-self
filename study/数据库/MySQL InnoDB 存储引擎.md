@@ -34,6 +34,44 @@ IO Thread 的工作主要是负责 IO 请求的回调（call back）处理。
 事务被提交后，其所使用的 undolog 可能不再需要，因此需要 PurgeThread 来回收已经使用并分配的 undo 页。
 #### Page Cleaner Thread
 刷新脏页
+### 内存
+#### 缓冲池
+InnoDB 存储引擎是基于磁盘存储的，并将其中的记录按照页的方式进行管理。  
+缓冲池简单来说就是一块内存区域，通过内存的速度来弥补磁盘速度较慢对数据库性能的影响。
+#### LRU List、Free List 和 Flush List
+数据库中的缓冲池通过 LRU 算法来进行管理（通过 midpoint 改进该算法，解决因扫描全表导致热点数据被淘汰的问题）。
+Flush List：脏页列表（页待刷新回磁盘）
+#### 重做日志缓冲
+
+## Checkpint 技术
+Checkpoint 技术的目的：
+* 缩短数据库的恢复时间（宕机后只恢复 Checkpoint 后的重做日志）
+* 缓冲池不够用时，将脏页刷新到磁盘
+* 重做日志不够用时，刷新脏页（将缓冲池中的页至少刷新到当前重做日志的位置）
+
+Checkpoint 的种类：
+* Sharp CheckPoint（数据库关闭时将所有脏页都刷新回磁盘）
+* Fuzzy Checkpint
+    * Master Thread Checkpoint（差不多以每秒或每十秒的速度从缓冲池的脏页列表中刷新一定比例的页回磁盘）
+    * FLUSH_LRU_LISR Checkpoint（LRU 列表没有足够的空闲页可供使用）
+    * Async/Sync Flush Checkpoint（重做日志不可用，强制将一些页刷新回磁盘）
+    * Dirty Page too much Checkpoint（脏页的数量太多，强制进行 Checkpoint）
+
+## InnoDB 关键特性
+* 插入缓冲（Insert Buffer）  
+    对于非聚集索引的插入和更新操作，不是每一次直接插入到索引页中，而是先判断插入的非聚集索引页是否在缓冲池中，若在，则直接插入；若不在，则先放入到一个 Insert Buffer 对象中。  
+    再以一定的频率和情况进行 Insert Buffer 和辅助索引页子节点的 merge 操作。  
+    使用 Insert Buffer 的条件
+    * 索引时辅助索引
+    * 索引不是唯一的
+* 两次写（Double Write）  
+  解决部分写失效的问题。增加页的副本，当写入失效发生时，先通过页的副本来还原该页，再进行重做。
+* 自适应哈希索引（Adaptive Hash Index）
+* 异步 IO（Ayync IO）  
+  全部 IO 请求发送完毕后，等待所有 IO 操作的完成，不需要串行等待。  
+  IO merge 操作。
+* 刷新邻接页（Flush Neighbor Page）  
+  当刷新一个脏页时，检测该页所在区的所有页，如果是脏页，则一起进行刷新。
 
 ## 数据的存储
 在 InnoDB 存储引擎中，所有的数据都被逻辑地存放在表空间中，表空间（tablespace）是存储引擎中最高的存储逻辑单位，在表空间的下面又包括段（segment）、区（extent）、页（page）
