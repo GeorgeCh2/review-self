@@ -1,4 +1,4 @@
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5863176a-ec67-4299-9041-a7c5cbc3a540/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5863176a-ec67-4299-9041-a7c5cbc3a540/Untitled.png)
+![Java 主流锁](https://github.com/GeorgeCh2/review-self/blob/master/img/lock-1.png)
 
 ## 乐观锁 VS 悲观锁
 
@@ -71,7 +71,7 @@ public final int getAndAddInt(Object var1, long var2, int var4) {
 
 自旋锁的实现原理同样也是 CAS，AtomicInteger 中调用 unsafe 进行自增操作的源码中的 do-while 循环就是一个自旋操作
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ac87d97-ac8d-416b-ac9b-cc9bda5d2f72/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ac87d97-ac8d-416b-ac9b-cc9bda5d2f72/Untitled.png)
+![CAS](https://github.com/GeorgeCh2/review-self/blob/master/img/lock-2.png)
 
 自适应意味着自旋的时间（次数）不再固定，而是由前一次在**同一个锁上的自旋时间及锁的拥有者的状态来决定**。如果在同一个锁对象上，自旋等待刚刚成功获得过锁，并且持有锁的线程正在运行中，那么虚拟机就会认为这次自旋也是很有可能再次成功，进而它将允许自旋等待持续相对更长的时间。如果对于某个锁，自旋很少成功获得过，那么以后尝试获取这个锁时将可能**省略掉自旋过程**，直接阻塞线程，避免浪费处理器资源。
 
@@ -103,9 +103,6 @@ synchronized 通过 Monitor 来实现**线程同步**，Monitor 是依赖于底�
 
 级别从低到高的锁依次是：无锁、偏向锁、轻量级锁和重量级锁。锁状态只能升级不能降级。
 
-四种锁状态对应的 Mark Word 内容：
-
-[Untitled](https://www.notion.so/0fb34415cd3a42a8af959ce0dbe2718c)
 
 ### 无锁
 
@@ -151,13 +148,13 @@ synchronized 通过 Monitor 来实现**线程同步**，Monitor 是依赖于底�
 
 **ReentrantLocak 中的公平锁和非公平锁：**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3a1f5ac9-a589-4db3-bb60-d0f99feb0351/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3a1f5ac9-a589-4db3-bb60-d0f99feb0351/Untitled.png)
+![公平锁和非公平锁](https://github.com/GeorgeCh2/review-self/blob/master/img/lock-3.png)
 
 ReentrantLock 里面有一个内部类 Sync，Sync 继承 AQS（AbstractQueuedSynchroinzer），添加锁和释放锁的大部分操作实际上都是在 Sync 中实现的。它有公平锁 FairSync 和非公平锁 NonfairSync 两个子类。ReentrantLock 默认使用非公平锁。
 
 公平锁和非公平锁的加锁方法：
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4440ad71-4d42-456d-afac-5946155812b9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4440ad71-4d42-456d-afac-5946155812b9/Untitled.png)
+![加锁方式](https://github.com/GeorgeCh2/review-self/blob/master/img/lock-4.png)
 
 公平锁于非公平锁的 lock() 方法唯一的区别就在于公平锁在获取同步状态时多了一个限制条件：hasQueuedPredecessors(): 判断当前线程是否位于同步队列中的第一个
 
