@@ -6,6 +6,7 @@
 | 51 | [NQueens](https://leetcode-cn.com/problems/n-queens/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BackTrack/NQueens.java)|
 | 53 | [Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/MaximumSubarray.java)|
 | 70 | [Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/ClimbingStairs.java)|
+| 118 | [ Pascal's Triangle](https://leetcode-cn.com/problems/pascals-triangle/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/PascalTriangle.java)|
 | 509 | [Fibonacci Number](https://leetcode-cn.com/problems/fibonacci-number/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/FibonacciNumber.java)|
 |322| [Coin Change](https://leetcode-cn.com/problems/coin-change/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/CoinChange.java)|
 |20|[Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Stack/ValidParentheses.java)|
