@@ -3,6 +3,8 @@ import java.util.List;
 
 /**
  * 全排列
+ * @author georgechou
+ * @link https://leetcode-cn.com/problems/permutations/
  */
 public class Permutations {
 	List<List<Integer>> res = new ArrayList<>();

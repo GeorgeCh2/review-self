@@ -5,8 +5,9 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author georgechou
  * N 皇后
+ * @author georgechou
+ * @link https://leetcode-cn.com/problems/n-queens/
  */
 public class NQueens {
 	private final List<List<String>> res = new ArrayList<>();
