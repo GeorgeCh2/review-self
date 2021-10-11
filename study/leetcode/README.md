@@ -9,6 +9,7 @@
 | 118 | [Pascal's Triangle](https://leetcode-cn.com/problems/pascals-triangle/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/PascalTriangle.java)|
 | 119 | [Pascal's Triangle II](https://leetcode-cn.com/tag/dynamic-programming/problemset/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/PascalTriangleII.java)|
 | 119 | [Best Time to Buy and Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/BuyAndSellStock.java)|
+| 338 | [Counting Bits](https://leetcode-cn.com/problems/counting-bits/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/CountBits.java)|
 | 509 | [Fibonacci Number](https://leetcode-cn.com/problems/fibonacci-number/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/FibonacciNumber.java)|
 |322| [Coin Change](https://leetcode-cn.com/problems/coin-change/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/CoinChange.java)|
 |20|[Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Stack/ValidParentheses.java)|
