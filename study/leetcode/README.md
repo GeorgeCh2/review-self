@@ -21,6 +21,7 @@
 |---| ----- | -------- |
 | 46 | [Permutations](https://leetcode-cn.com/problems/permutations/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BackTrack/Permutations.java)|
 | 51 | [NQueens](https://leetcode-cn.com/problems/n-queens/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BackTrack/NQueens.java)|
+| 22 | [Generate Parentheses](https://leetcode-cn.com/problems/generate-parentheses/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BackTrack/GenerateParentheses.java)|
 
 #### Two Pointers
 | num | Title | Solution |
