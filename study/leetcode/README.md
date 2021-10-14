@@ -23,6 +23,11 @@
 | 51 | [NQueens](https://leetcode-cn.com/problems/n-queens/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BackTrack/NQueens.java)|
 | 22 | [Generate Parentheses](https://leetcode-cn.com/problems/generate-parentheses/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BackTrack/GenerateParentheses.java)|
 
+#### Greedy Algorithm
+| num | Title | Solution |
+|---| ----- | -------- |
+| 45 | [Jump Game II](https://leetcode-cn.com/problems/jump-game-ii/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/GreedyAlgorithm/JumpGameII.java)|
+
 #### Two Pointers
 | num | Title | Solution |
 |---| ----- | -------- |
