@@ -27,6 +27,7 @@
 | num | Title | Solution |
 |---| ----- | -------- |
 | 45 | [Jump Game II](https://leetcode-cn.com/problems/jump-game-ii/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/GreedyAlgorithm/JumpGameII.java)|
+| 55 | [Jump Game](https://leetcode-cn.com/problems/jump-game/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/GreedyAlgorithm/JumpGame.java)|
 
 #### Two Pointers
 | num | Title | Solution |
