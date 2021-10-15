@@ -4,6 +4,7 @@
 | num | Title | Solution |
 |---| ----- | -------- |
 | 53 | [Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/MaximumSubarray.java)|
+| 62 | [Unique Paths](https://leetcode-cn.com/problems/unique-paths/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/UniquePath.java)|
 | 70 | [Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/ClimbingStairs.java)|
 | 118 | [Pascal's Triangle](https://leetcode-cn.com/problems/pascals-triangle/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/PascalTriangle.java)|
 | 119 | [Pascal's Triangle II](https://leetcode-cn.com/tag/dynamic-programming/problemset/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/PascalTriangleII.java)|
