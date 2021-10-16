@@ -8,6 +8,7 @@
 | 63 | [Unique Paths II](https://leetcode-cn.com/problems/unique-paths-ii/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/UniquePathII.java)|
 | 64 | [Minimum Path Sum](https://leetcode-cn.com/problems/minimum-path-sum/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/MinimumPathSum.java)|
 | 70 | [Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/ClimbingStairs.java)|
+| 91 | [Decode Ways](https://leetcode-cn.com/problems/decode-ways/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/DecodeWays.java)|
 | 118 | [Pascal's Triangle](https://leetcode-cn.com/problems/pascals-triangle/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/PascalTriangle.java)|
 | 119 | [Pascal's Triangle II](https://leetcode-cn.com/tag/dynamic-programming/problemset/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/PascalTriangleII.java)|
 | 119 | [Best Time to Buy and Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/BuyAndSellStock.java)|
