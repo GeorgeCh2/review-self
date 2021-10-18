@@ -1,5 +1,19 @@
 ### leetcode 刷题记录 
 
+#### List
+| num | Title | Solution |
+|---| ----- | -------- |
+|21|[Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/List/MergeList.java)|
+
+#### Stack
+| num | Title | Solution |
+|---| ----- | -------- |
+|20|[Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Stack/ValidParentheses.java)|
+|155|[Min Stack](https://leetcode-cn.com/problems/min-stack/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Stack/MinStack.java)|
+|232|[Implement Queue using Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Stack/MyQueue.java)|
+|844|[Backspace String Compare](https://leetcode-cn.com/problems/backspace-string-compare/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Stack/BackspaceCompare.java)|
+
+
 #### Dynamic Programming
 | num | Title | Solution |
 |---| ----- | -------- |
@@ -37,11 +51,3 @@
 | num | Title | Solution |
 |---| ----- | -------- |
 | 46 | [ Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/TwoPointers/LongestPalindrome.java)|
-
-#### Stack
-| num | Title | Solution |
-|---| ----- | -------- |
-|20|[Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Stack/ValidParentheses.java)|
-|155|[Min Stack](https://leetcode-cn.com/problems/min-stack/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Stack/MinStack.java)|
-|232|[Implement Queue using Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Stack/MyQueue.java)|
-|844|[Backspace String Compare](https://leetcode-cn.com/problems/backspace-string-compare/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Stack/BackspaceCompare.java)|
