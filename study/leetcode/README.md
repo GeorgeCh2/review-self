@@ -6,6 +6,7 @@
 |19|[Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/List/RemoveNNode.java)|
 |21|[Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/List/MergeList.java)|
 |24|[Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/List/SwapNodes.java)|
+|61|[Rotate List](https://leetcode-cn.com/problems/rotate-list/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/List/RotateList.java)|
 |141|[Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/List/CycleLinkedList.java)|
 |142|[Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/List/CycleLinkedListII.java)|
 |160|[Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/List/IntersectionLinkedList.java)|

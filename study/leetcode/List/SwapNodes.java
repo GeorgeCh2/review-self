@@ -15,7 +15,7 @@ public class SwapNodes {
 			p1.next = p2.next;
 			p2.next = p1;
 
-			temp = p2;
+			temp = p1;
 		}
 
 		return dummy.next;
