@@ -67,3 +67,4 @@
 |---| ----- | -------- |
 | 66 | [Plus One](https://leetcode-cn.com/problems/plus-one/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/PlusOne.java)|
 | 229 | [Majority Element II](https://leetcode-cn.com/problems/majority-element-ii/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/MajorityElementII.java)|
+| 492 | [Construct the Rectangle](https://leetcode-cn.com/problems/construct-the-rectangle/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/ConstructRectangle.java)|
