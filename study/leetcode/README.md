@@ -10,6 +10,7 @@
 |61|[Rotate List](https://leetcode-cn.com/problems/rotate-list/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/List/RotateList.java)|
 |82|[Remove Duplicates from Sorted List II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/List/RemoveDuplicatesII.java)|
 |83|[Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/List/RemoveDuplicates.java)|
+|86|[Partition List](https://leetcode-cn.com/problems/partition-list/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/List/PartitionList.java)|
 |141|[Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/List/CycleLinkedList.java)|
 |142|[Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/List/CycleLinkedListII.java)|
 |160|[Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)|[Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/List/IntersectionLinkedList.java)|
