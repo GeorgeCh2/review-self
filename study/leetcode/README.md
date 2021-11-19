@@ -73,6 +73,7 @@
 | 240 | [Search a 2D Matrix II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/SearchMatrixII.java)|
 | 299 | [Bulls and Cows](https://leetcode-cn.com/problems/bulls-and-cows/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/BullsAndCows.java)|
 | 367 | [Valid Perfect Square](https://leetcode-cn.com/problems/valid-perfect-square/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/ValidPerfectSquare.java)|
+| 397 | [ Integer Replacement](https://leetcode-cn.com/problems/integer-replacement/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/IntegerReplacement.java)|
 | 492 | [Construct the Rectangle](https://leetcode-cn.com/problems/construct-the-rectangle/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/ConstructRectangle.java)|
 | 495 | [Teemo Attacking](https://leetcode-cn.com/problems/teemo-attacking/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/TeemoAttacking.java)|
 | 496 | [Next Greater Element I](https://leetcode-cn.com/problems/next-greater-element-i/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/NextGreaterElement.java)|
