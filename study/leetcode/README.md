@@ -77,5 +77,6 @@
 | 492 | [Construct the Rectangle](https://leetcode-cn.com/problems/construct-the-rectangle/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/ConstructRectangle.java)|
 | 495 | [Teemo Attacking](https://leetcode-cn.com/problems/teemo-attacking/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/TeemoAttacking.java)|
 | 496 | [Next Greater Element I](https://leetcode-cn.com/problems/next-greater-element-i/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/NextGreaterElement.java)|
+| 559 | [Maximum Depth of N-ary Tree](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/MaximumDepthNaryTree.java)|
 | 563 | [Binary Tree Tilt](https://leetcode-cn.com/problems/binary-tree-tilt/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/BinaryTreeTilt.java)|
 | 598 | [Range Addition II](https://leetcode-cn.com/problems/range-addition-ii/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/RangeAdditionII.java)|
