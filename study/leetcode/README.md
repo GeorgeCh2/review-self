@@ -69,6 +69,7 @@
 | num | Title | Solution |
 |---| ----- | -------- |
 | 704 | [Binary Search](https://leetcode-cn.com/problems/binary-search/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BinarySearch/BinarySearch.java)|
+| 278 | [First Bad Version](https://leetcode-cn.com/problems/first-bad-version/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BinarySearch/FirstBadVersion.java)|
 
 #### Daily
 | num | Title | Solution |
