@@ -65,6 +65,11 @@
 |---| ----- | -------- |
 | 46 | [ Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/TwoPointers/LongestPalindrome.java)|
 
+#### Binary Search
+| num | Title | Solution |
+|---| ----- | -------- |
+| 704 | [Binary Search](https://leetcode-cn.com/problems/binary-search/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BinarySearch/BinarySearch.java)|
+
 #### Daily
 | num | Title | Solution |
 |---| ----- | -------- |
