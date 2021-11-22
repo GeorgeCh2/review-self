@@ -89,3 +89,4 @@
 | 559 | [Maximum Depth of N-ary Tree](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/MaximumDepthNaryTree.java)|
 | 563 | [Binary Tree Tilt](https://leetcode-cn.com/problems/binary-tree-tilt/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/BinaryTreeTilt.java)|
 | 598 | [Range Addition II](https://leetcode-cn.com/problems/range-addition-ii/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/RangeAdditionII.java)|
+| 384 | [Shuffle an Array](https://leetcode-cn.com/problems/shuffle-an-array/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/ShuffleArray.java)|
