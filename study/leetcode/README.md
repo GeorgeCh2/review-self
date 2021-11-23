@@ -66,6 +66,7 @@
 | 46 | [Longest Palindromic Substring](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/TwoPointers/LongestPalindrome.java)|
 | 977 | [Squares of a Sorted Array](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/TwoPointers/SquaresSortedArray.java)|
 | 189 | [Rotate Array](https://leetcode-cn.com/problems/rotate-array/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/TwoPointers/RotateArray.java)|
+| 283 | [Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/TwoPointers/MoveZeroes.java)|
 
 #### Binary Search
 | num | Title | Solution |
