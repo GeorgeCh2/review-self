@@ -84,6 +84,7 @@
 | num | Title | Solution |
 |---| ----- | -------- |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/SlidingWindow/LongestSubstring.java)|
+| 567 | [Permutation in String](https://leetcode-cn.com/problems/permutation-in-string/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/SlidingWindow/PermutationString.java)|
 
 #### Daily
 | num | Title | Solution |
