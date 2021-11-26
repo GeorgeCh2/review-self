@@ -80,6 +80,11 @@
 | 278 | [First Bad Version](https://leetcode-cn.com/problems/first-bad-version/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BinarySearch/FirstBadVersion.java)|
 | 35 | [Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BinarySearch/SearchInsertPosition.java)|
 
+#### Sliding Window
+| num | Title | Solution |
+|---| ----- | -------- |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/SlidingWindow/LongestSubstring.java)|
+
 #### Daily
 | num | Title | Solution |
 |---| ----- | -------- |
