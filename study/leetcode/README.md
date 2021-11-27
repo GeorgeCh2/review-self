@@ -90,6 +90,7 @@
 | num | Title | Solution |
 |---| ----- | -------- |
 | 733 | [Flood Fill](https://leetcode-cn.com/problems/flood-fill/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Search/FloodFill.java)|
+| 695 | [Max Area of Island](https://leetcode-cn.com/problems/max-area-of-island/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Search/MaxAreaIsland.java)|
 
 #### Daily
 | num | Title | Solution |
