@@ -94,6 +94,7 @@
 | 617 | [Merge Two Binary Trees](https://leetcode-cn.com/problems/merge-two-binary-trees/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Search/MergeBinaryTrees.java)|
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Search/PopulatingNode.java)|
 | 542 | [01 Matrix](https://leetcode-cn.com/problems/01-matrix/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Search/Matrix01.java)|
+| 994 | [Rotting Oranges](https://leetcode-cn.com/problems/rotting-oranges/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Search/RottingOranges.java)|
 
 #### Daily
 | num | Title | Solution |
