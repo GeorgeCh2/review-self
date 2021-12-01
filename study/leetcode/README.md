@@ -55,6 +55,7 @@
 | 51 | [NQueens](https://leetcode-cn.com/problems/n-queens/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BackTrack/NQueens.java)|
 | 22 | [Generate Parentheses](https://leetcode-cn.com/problems/generate-parentheses/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BackTrack/GenerateParentheses.java)|
 |77| [Combinations](https://leetcode-cn.com/problems/combinations/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BackTrack/Combinations.java)|
+|784| [Letter Case Permutation](https://leetcode-cn.com/problems/letter-case-permutation/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BackTrack/LetterCasePermutation.java)|
 
 #### Greedy Algorithm
 | num | Title | Solution |
