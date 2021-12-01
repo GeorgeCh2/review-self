@@ -116,3 +116,4 @@
 | 598 | [Range Addition II](https://leetcode-cn.com/problems/range-addition-ii/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/RangeAdditionII.java)|
 | 384 | [Shuffle an Array](https://leetcode-cn.com/problems/shuffle-an-array/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/ShuffleArray.java)|
 | 859 | [Buddy String](https://leetcode-cn.com/problems/buddy-strings/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/BuddyString.java)|
+|1446| [Consecutive Characters](https://leetcode-cn.com/problems/consecutive-characters/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/ConsecutiveCharacters.java)|
