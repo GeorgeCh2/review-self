@@ -47,6 +47,7 @@
 | 746 | [in Cost Climbing Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/MinCostClimbStairs.java)|
 |1137| [N-th Tribonacci Number](https://leetcode-cn.com/problems/n-th-tribonacci-number/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/TribonacciNumber.java)|
 |1646| [Get Maximum in Generated Array](https://leetcode-cn.com/problems/get-maximum-in-generated-array/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/MaximumGenerate.java)|
+|198| [House Robber](https://leetcode-cn.com/problems/house-robber/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/HouseRobber.java)|
 
 #### Back Track
 | num | Title | Solution |
