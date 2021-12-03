@@ -105,6 +105,7 @@
 | num | Title | Solution |
 |---| ----- | -------- |
 |231| [Power of Two](https://leetcode-cn.com/problems/power-of-two/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Bit/PowerOfTwo.java)|
+|191| [Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Bit/NumberBits.java)|
 
 #### Daily
 | num | Title | Solution |
