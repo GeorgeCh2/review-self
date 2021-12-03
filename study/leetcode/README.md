@@ -101,6 +101,11 @@
 | 542 | [01 Matrix](https://leetcode-cn.com/problems/01-matrix/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Search/Matrix01.java)|
 | 994 | [Rotting Oranges](https://leetcode-cn.com/problems/rotting-oranges/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Search/RottingOranges.java)|
 
+#### Bit
+| num | Title | Solution |
+|---| ----- | -------- |
+|231| [Power of Two](https://leetcode-cn.com/problems/power-of-two/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Bit/PowerOfTwo.java)|
+
 #### Daily
 | num | Title | Solution |
 |---| ----- | -------- |
