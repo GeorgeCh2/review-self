@@ -84,6 +84,7 @@
 | 704 | [Binary Search](https://leetcode-cn.com/problems/binary-search/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BinarySearch/BinarySearch.java)|
 | 278 | [First Bad Version](https://leetcode-cn.com/problems/first-bad-version/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BinarySearch/FirstBadVersion.java)|
 | 35 | [Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BinarySearch/SearchInsertPosition.java)|
+|34| [Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BinarySearch/FindPosition.java)|
 
 #### Sliding Window
 | num | Title | Solution |
