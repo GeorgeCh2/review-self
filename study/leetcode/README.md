@@ -88,6 +88,7 @@
 |33| [Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BinarySearch/SearchRotateArray.java)|
 |74| [Search a 2D Matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BinarySearch/Search2DMatrix.java)|
 |153| [Find Minimum in Rotated Sorted Array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BinarySearch/FindMinRotateArray.java)|
+|163| [Find Peak Element](https://leetcode-cn.com/problems/find-peak-element/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BinarySearch/FindPeakElement.java)|
 
 #### Sliding Window
 | num | Title | Solution |
