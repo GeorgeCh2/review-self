@@ -5,22 +5,16 @@
  */
 public class RemoveDuplicatesII {
 	public ListNode deleteDuplicates(ListNode head) {
-		if (null == head) {
-			return null;
-		}
-
-		ListNode dummy = new ListNode(-1);
-		dummy.next = head;
-		ListNode p1 = dummy;
-		while (null != p1.next && null != p1.next.next) {
-			if (p1.next.val == p1.next.next.val) {
-				while (null != p1.next.next && p1.next.val == p1.next.next.val) {
-					p1.next.next = p1.next.next.next;
+		ListNode dummy = new ListNode(-1, head), slow = dummy, fast = head;
+		while (null != slow.next) {
+			if (null == fast.next || fast.val != fast.next.val) {
+				if (slow.next != fast) {
+					slow.next = fast.next;
+				} else {
+					slow = slow.next;
 				}
-				p1.next = p1.next.next;
-			} else {
-				p1 = p1.next;
 			}
+			fast = fast.next;
 		}
 
 		return dummy.next;

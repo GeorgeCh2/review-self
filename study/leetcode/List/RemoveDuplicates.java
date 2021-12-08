@@ -1,7 +1,7 @@
 /**
  * 删除排序链表中的重复元素
  * @author georgechou
- * @link https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/
+ * @link https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/
  */
 public class RemoveDuplicates {
 	public ListNode deleteDuplicates(ListNode head) {
