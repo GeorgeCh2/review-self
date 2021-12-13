@@ -1,5 +1,3 @@
-package life.codecook.leetcode.medium;
-
 /**
  * 岛屿数量
  * @author georgechou

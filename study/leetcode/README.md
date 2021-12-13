@@ -112,6 +112,7 @@
 | 542 | [01 Matrix](https://leetcode-cn.com/problems/01-matrix/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Search/Matrix01.java)|
 | 994 | [Rotting Oranges](https://leetcode-cn.com/problems/rotting-oranges/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Search/RottingOranges.java)|
 |200| [Number of Islands](https://leetcode-cn.com/problems/number-of-islands/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Search/IslandNumber.java)|
+|547| [Number of Provinces](https://leetcode-cn.com/problems/number-of-provinces/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Search/ProvinceNumber.java)|
 
 #### Bit
 | num | Title | Solution |
