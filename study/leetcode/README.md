@@ -113,6 +113,7 @@
 | 994 | [Rotting Oranges](https://leetcode-cn.com/problems/rotting-oranges/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Search/RottingOranges.java)|
 |200| [Number of Islands](https://leetcode-cn.com/problems/number-of-islands/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Search/IslandNumber.java)|
 |547| [Number of Provinces](https://leetcode-cn.com/problems/number-of-provinces/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Search/ProvinceNumber.java)|
+|572| [Subtree of Another Tree](https://leetcode-cn.com/problems/subtree-of-another-tree/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Search/Subtree.java)|
 
 #### Bit
 | num | Title | Solution |
