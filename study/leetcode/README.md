@@ -126,6 +126,7 @@
 | num | Title | Solution |
 |---| ----- | -------- |
 |78| [Subsets](https://leetcode-cn.com/problems/subsets/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Recursion/Subsets.java)|
+|90| [SubsetsII](https://leetcode-cn.com/problems/subsets-ii/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Recursion/SubsetsII.java)|
 
 #### Daily
 | num | Title | Solution |
