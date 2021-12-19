@@ -62,6 +62,7 @@
 |39| [Combination Sum](https://leetcode-cn.com/problems/combination-sum/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BackTrack/CombinationSum.java)|
 |40| [Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BackTrack/CombinationSumII.java)|
 |17| [Letter Combinations of a Phone Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BackTrack/PhoneNumberCombinations.java)|
+|79| [Word Search](https://leetcode-cn.com/problems/word-search/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/BackTrack/WordSearch.java)|
 
 #### Greedy Algorithm
 | num | Title | Solution |
