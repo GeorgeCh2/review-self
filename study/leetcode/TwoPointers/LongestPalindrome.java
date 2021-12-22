@@ -4,24 +4,25 @@
  * @link https://leetcode-cn.com/problems/longest-palindromic-substring/
  */
 public class LongestPalindrome {
+	private int length;
+	
 	public String longestPalindrome(String s) {
 		String res = "";
-
-		// 解决回文串的核心就是双指针
-		for (int i = 0; i < s.length(); i++) {
-			String str1 = palindrome(s, i, i);
-			String str2 = palindrome(s, i, i + 1);
-
-			res = str1.length() > res.length() ? str1 : res;
-			res = str2.length() > res.length() ? str2 : res;
+		length = s.length();
+		for (int i = 0; i < length; i++) {
+			// 回文串长度为奇数的情况
+			String s1 = palindrome(s, i, i);
+			// 回文串长度为偶数的情况
+			String s2 = palindrome(s, i, i + 1);
+			res = s1.length() > s2.length() ? (s1.length() > res.length() ? s1 : res) : (s2.length() > res.length() ? s2 : res);
 		}
 
 		return res;
 	}
 
+	// 中心扩散
 	private String palindrome(String s, int l, int r) {
-		char[] chars = s.toCharArray();
-		while (l >= 0 && r < chars.length && chars[l] == chars[r]) {
+		while (l >= 0 && r < length && s.charAt(l) == s.charAt(r)) {
 			l--;
 			r++;
 		}
