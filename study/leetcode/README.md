@@ -51,6 +51,7 @@
 |120| [Triangle](https://leetcode-cn.com/problems/triangle/submissions/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/Triangle.java)|
 |213| [House Robber II](https://leetcode-cn.com/problems/house-robber-ii/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/HouseRoberII.java)|
 |413| [Arithmetic Slices](https://leetcode-cn.com/problems/arithmetic-slices/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/ArithmeticSlices.java)|
+|139| [Word Break](https://leetcode-cn.com/problems/word-break/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/DynamicProgramming/WordBreak.java)|
 
 #### Back Track
 | num | Title | Solution |
