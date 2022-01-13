@@ -156,3 +156,4 @@
 |1446| [Consecutive Characters](https://leetcode-cn.com/problems/consecutive-characters/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/ConsecutiveCharacters.java)|
 |31| [Next Permutation](https://leetcode-cn.com/problems/next-permutation/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/NextPermutation.java)|
 |48| [Rotate Image](https://leetcode-cn.com/problems/rotate-image/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/RotateImage.java)|
+|49| [Group Anagrams](https://leetcode-cn.com/problems/group-anagrams/) | [Java](https://github.com/GeorgeCh2/review-self/blob/master/study/leetcode/Daily/GroupAnagrams.java)|
